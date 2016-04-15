@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="sv_se">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/unsemantic-grid-responsive-tablet.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Fredag?</title>
+</head>
+<body>
+<div class="grid-container" id="clockdiv">
+
+    <section class="grid-80 prefix-10 tablet-grid-80 tablet-prefix-10 mobile-grid-100 grid-parent" id="header_section">
+        <article class="grid-100 mobile-grid-100 tablet-grid-100 main_content">
+            <h1 id="header"></h1>
+        </article>
+        </section>
+
+    <section class="grid-80 prefix-10 tablet-grid-80 tablet-prefix-10 mobile-grid-100 grid-parent" id="counter_section">
+
+    <article class="grid-25 mobile-grid-25 tablet-grid-25 main_content">
+
+        <div class="box">
+            <p>Days:</p>
+            <div class="inner_box">
+                <span class="days"></span>
+            </div>
+        </div>
+
+    </article>
+    <article class="grid-25 mobile-grid-25 tablet-grid-25 main_content">
+
+        <div class="box">
+            <p>Hours:</p>
+            <div class="inner_box">
+                <span class="hours"></span>
+            </div>
+        </div>
+
+    </article>
+    <article class="grid-25 mobile-grid-25 tablet-grid-25 main_content">
+
+        <div class="box">
+            <p>Minutes:</p>
+            <div class="inner_box">
+                <span class="minutes"></span>
+            </div>
+        </div>
+
+    </article>
+    <article class="grid-25 mobile-grid-25 tablet-grid-25 main_content">
+
+        <div class="box">
+
+            <p>Seconds:</p>
+            <div class="inner_box">
+                <span class="seconds"></span>
+            </div>
+        </div>
+
+    </article>
+
+    </section>
+
+</div>
+
+<script src="js/countdown.js" defer></script>
+</body>
+</html>
